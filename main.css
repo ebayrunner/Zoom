@@ -1,0 +1,213 @@
+/**
+ * Created by michaeluchida on 1/26/16.
+ */
+
+h1 {
+    font-size: 35px;
+    color:darkred;
+    align-content: center;
+}
+
+h2 {
+    font-size: 25px;
+    color:darkred;
+}
+h3 {
+    font-size: 15px;
+    color: darkred;
+}
+
+h4 {
+    font-size: 20px;
+    color:green;
+}
+
+p {
+    font-size: 20px;
+    color:green;
+}
+label {
+    font-size: 25px;
+    color: inherit;
+}
+
+
+span {
+    color: blue;
+    font-size: 40px;
+
+}
+.orderMenu {
+    font-size: 20px;
+}
+
+#companyInfo{
+    background:#ffe2a8
+}
+
+
+
+/************************  <section> elements **************************/
+#bodyContent {
+    background-color: #ffda58;
+
+}
+
+#introduction, #customerLogin, #orderForm, #api {
+    margin: auto;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+
+}
+
+
+
+#introduction {
+    text-align: center;
+    color: brown;
+    margin: auto;
+    background-color: #ffcd96;
+    border: double;
+    border-color: black;
+    border-width: thin;
+}
+
+/*************************************** #introduction child elements **************************/
+
+
+/*************************************** END #introduction child elements **************************/
+
+#customerLogin{
+    text-align: center;
+    color: purple;
+    height: 100px;
+    margin: auto;
+    background-color: #ffcd96;
+    border-color: black;
+    border-width: thin;
+    font-size: 15px;
+}
+
+/*************************************** #customerLogin child elements **************************/
+
+#welcomeMessage {
+    align-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+/*************************************** END #customerLogin child elements **************************/
+
+#orderForm {
+    display: none;
+    text-align: center;
+    background-color: #ffcd96;
+    margin: auto;
+    border: double;
+    border-color: black;
+    border-width: thin;
+}
+
+/*************************************** #orderForm child elements **************************/
+
+#orderSelection{
+    margin: auto;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+#lastOrders  {
+    font-size: 15px;
+    margin: auto;
+    width: 66%;
+    list-style-type: disc;
+}
+
+
+#costSection {
+    text-align: center;
+    color: red;
+    margin: auto;
+    background-color: #ffcd96;
+    border-color: black;
+    border-width: thin;
+    font-size: 25px;
+}
+
+#finalCheckOut{
+    text-align: center;
+    height: 100px;
+    color: brown;
+    margin: auto;
+    background-color: #ffcd96;
+    border: double;
+    border-color: black;
+    border-width: thin;
+}
+
+#goodByeMessage {
+    text-align: center;
+    height: 50px;
+    color: blue;
+    margin: auto;
+    background-color: lightblue;
+    border: double;
+    border-color: black;
+    border-width: thin;
+}
+
+/*************************************** END #orderForm child elements **************************/
+#api{
+
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+    border: double;
+    border-color: black;
+    border-width: thin;
+    display: block;
+
+}
+
+/*************************************** #api child elements **************************/
+
+#apiWrapper{
+    display: none;
+    width: 100%;
+    height: 200px;
+    background-color:  aliceblue;
+}
+
+#displayCafeInfo {
+    display: none;
+    font-size: 18px;
+    height: 40%;
+    background-color: antiquewhite;
+    width: 100%;
+
+}
+
+#displayFilteredResults{
+    font-size: 16px;
+    height: 40%;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+
+/*************************************** END #api child elements **************************/
+
+/************************  END <section> elements **************************/
+
+
+
+
+
+
+
+
+
